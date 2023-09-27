@@ -40,8 +40,8 @@ public class OrderCardTest {
 
     @Test
     void shouldTestV1() {
-        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов Василий");
-        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79991231212");
+        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Денис Лысов");
+        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79990000000");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("[type=button]")).click();
 
